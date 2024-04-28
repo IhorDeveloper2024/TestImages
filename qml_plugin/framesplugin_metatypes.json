@@ -1,0 +1,21 @@
+[
+    {
+    },
+    {
+        "classes": [
+            {
+                "className": "FramesPlugin",
+                "object": true,
+                "qualifiedClassName": "FramesPlugin",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQmlExtensionPlugin"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "FramesPlugin.h",
+        "outputRevision": 68
+    }
+]

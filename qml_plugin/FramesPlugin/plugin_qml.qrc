@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Frames/FileDelegate.qml</file>
+        <file>Frames/FilesListView.qml</file>
+        <file>Frames/ImageScreen.qml</file>
+        <file>Frames/StartScreen.qml</file>
+        <file>Frames/InitAnimation.qml</file>
+        <file>Frames/InitScreen.qml</file>
+        <file>Frames/qmldir</file>
+        <file>images/Compressor.jpg</file>
+        <file>images/book.jpg</file>
+        <file>images/arrow.png</file>
+    </qresource>
+</RCC>
