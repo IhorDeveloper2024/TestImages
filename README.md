@@ -20,7 +20,15 @@
    - Using Qt version 5.15.3 in /usr/lib/x86_64-linux-gnu
 
 ## 3. Build проекту
-    Скрипт для збірки ...Tobuild/
+    ДО початку збірки проекту необхіднвстановити executable на усі наступні файли:
+        /.../TestImages/build_and_start.sh
+        /.../TestImages/cmake_build.sh
+        /.../TestImages/qml_build.sh
+        /.../TestImages/start.sh
+        /.../TestImages/qml_plugin/build.sh
+        /.../TestImages/bin/compress_image_ui
+        /.../TestImages/bin/start.sh
+    Скрипт для збірки ...TestImages/
     ./build_and_start.sh
 Перед білдом необхідно вставити в build_and_start.sh три шляхи:
     QT_BIN_PATH='/home/.../Qt/6.6.1/gcc_64/bin/' - шлях до qmake
