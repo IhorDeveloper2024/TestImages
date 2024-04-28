@@ -1,0 +1,3 @@
+module FramesPlugin
+FramesPlugin 1.0 Frames/InitScreen.qml
+plugin framesplugin
