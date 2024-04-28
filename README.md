@@ -2,32 +2,32 @@
 
 ## 1.  Проект
 Проект складається з трьох частин:
-    * compression - бібліотека для стискання зображеннь
+    - compression -> бібліотека для стискання зображеннь
         2 методи:
           - compress   -> BMP -> branch
           - decompress -> branch -> BMP
-    * qml_plugin - бібліотека що включає усі QML форми
-    * ui - реалізація UI через QtWidgets та бізнес-логіка
+    - qml_plugin - бібліотека що включає усі QML форми
+    - ui - реалізація UI через QtWidgets та бізнес-логіка
 
 ## 2. Параметри системи
 Параметри ОС
-    Distributor ID:	Ubuntu
-    Description:	Ubuntu 22.04.4 LTS
-    Release:	22.04
-    Codename:	jammy
+   - Distributor ID:	Ubuntu
+   - Description:	Ubuntu 22.04.4 LTS
+   - Release:	22.04
+   - Codename:	jammy
 Параметри Qt
-    QMake version 3.1
-    Using Qt version 5.15.3 in /usr/lib/x86_64-linux-gnu
+   - QMake version 3.1
+   - Using Qt version 5.15.3 in /usr/lib/x86_64-linux-gnu
 
 ## 3. Build проекту
-    Скрипт бля зборки ...Tobuild/
+    Скрипт для збірки ...Tobuild/
     ./build_and_start.sh
-Перед запуском необхідно вставити в build_and_start.sh три шляхи:
-    QT_BIN_PATH='/home/igor/Qt/6.6.1/gcc_64/bin/' - шлях до qmake
-    CMAKE_BIN_PATH="/home/igor/Qt/6.6.1/gcc_64/lib/cmake/"  - шлях до cmake
-    TARGET_LIBRARY="/home/igor/TestPacketBook/Тестове завдання С++ PocketBook/" -  - шлях до папки з малюнками
+Перед білдом необхідно вставити в build_and_start.sh три шляхи:
+    QT_BIN_PATH='/home/.../Qt/6.6.1/gcc_64/bin/' - шлях до qmake
+    CMAKE_BIN_PATH="/home/.../Qt/6.6.1/gcc_64/lib/cmake/"  - шлях до cmake
+    TARGET_LIBRARY="/home/.../TestPacketBook/IMAGES/" -  - шлях до папки з малюнками
 Папка для згенерованих файллв - build
-У випадку запуску build_and_start.sh використовується qmake а з будь чким параметром через cmake
+У випадку запуску build_and_start.sh використовується qmake, а з будь-яким параметром через cmake
     Example:
         build_and_start.sh -> qmake
         build_and_start.sh AAA -> cmake
